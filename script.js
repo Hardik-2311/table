@@ -14,4 +14,6 @@ fetch("https://reqres.in/api/users").then((data)=>{
    })
    document.getElementById("table-body").innerHTML=tabledat;
    
-});
+}).catch((err)=>{
+    document.write("Error: 404 Server Not Found");
+})
