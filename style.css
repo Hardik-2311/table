@@ -2,12 +2,37 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
-
+body{
+    background: #f2709c;
+  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
+  background: linear-gradient(to right, #ff9472, #f2709c);
+}
+h2 {
+  text-align: center;
+  color: #0cebeb;
+  padding-top: 1rem;
+}
+thead {
+  line-height: 2rem;
+}
 table {
-  margin-top: 10rem;
+  margin-top: 2rem;
   width: 80%;
   margin-left: auto;
   margin-right: auto;
 }
- 
+img {
+  border-radius: 50px;
+  width: 90px;
+}
+
+.table-body {
+  text-align: center;
+  color: #fff;
+}
+
+th {
+  padding: 1rem;
+}
