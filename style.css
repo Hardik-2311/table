@@ -5,9 +5,8 @@
   
 }
 body{
-    background: #f2709c;
-  background: -webkit-linear-gradient(to right, #ff9472, #f2709c);
-  background: linear-gradient(to right, #ff9472, #f2709c);
+  background: #f2709c;
+
 }
 h2 {
   text-align: center;
@@ -35,4 +34,16 @@ img {
 
 th {
   padding: 1rem;
+}
+
+@media(max-width:720px){
+  table{
+    width: 100%;
+    max-width: 25rem;
+    height: 80vh;
+  }
+  th{
+    padding: .8rem;
+    text-align: left;
+  }
 }
